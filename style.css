@@ -1,3 +1,4 @@
+/*Aqui esta configurado algumas variaveis para a interface .dark*/
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -8,6 +9,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
+/*Aqui esta configurado algumas variaveis para a interface .light*/
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
@@ -18,7 +20,7 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-/*body*/
+/*Corpo/Body = Definindo padrão do body */
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +45,7 @@ body {
   height: 100vh;
 }
 
+/*é a box onde ira ficar armazenado e organizadoos objetos*/
 #container {
   width: 100%;
   max-width: 588px;
@@ -51,7 +54,7 @@ body {
   padding: 0 24px;
 }
 
-/* profile */
+/* box profile \ caixa imagem de perfil */
 #profile {
   text-align: center;
   padding: 24px;
@@ -68,7 +71,7 @@ body {
   margin-top: 8px;
 }
 
-/*switch*/
+/*switch button \ botão switch (mudança de interface = dark/light)*/
 #switch {
   position: relative;
   width: 64px;
@@ -107,7 +110,8 @@ body {
   border-radius: 9999px;
   backdrop-filter: blur(4px);
 }
-/*links - lista */
+
+/*links - lista de links*/
 ul {
   list-style: none;
 
@@ -141,6 +145,7 @@ ul li a:hover {
   background: var(--surface-color-hover);
 }
 
+/*Social Links - Links sociaveis*/
 #socialinks {
   display: flex;
   justify-content: center;
